@@ -31,10 +31,10 @@ p {
 aside {
     width: 840px;
     margin: 50px;
-    border: 5px rgb(44, 28, 145);
+    border: 5px rgb(34, 0, 253);
     padding: 25px 33px;
-    background-color: rgba(44, 28, 222, 0.758);
-    color: rgb(255, 255, 255);
+    background-color: rgba(232, 232, 232, 0.758);
+    color: rgb(0, 0, 0);
 }
 main img {
     width: 200px;
