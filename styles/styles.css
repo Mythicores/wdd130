@@ -1,10 +1,17 @@
+:root {
+    --color:white;
+    --color-scheme: darkblue;
+    
+}
+
+
 body {
     max-width: 840px;
     background-color: white;
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--color-scheme);
     padding: 10px;
 }
 nav a {
@@ -14,7 +21,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--color-scheme);
 }
 
 img {
