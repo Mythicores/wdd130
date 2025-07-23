@@ -35,11 +35,10 @@ nav, p, section, article {
     height:50px;
 }
 
-.hero{
-    position: relative;
-}
+
 
 .hero{
+    position: relative;
     display: block;
     width: 100%;
     height: auto;
@@ -56,7 +55,14 @@ h1{
     color:white;
 }
 
-
+.hero article{
+    text-align: center;
+    top:50%;
+    padding: 20;
+    opacity: 0.5;
+    background-color: var(--accent2-color);
+    color: black;
+}
 
 .hero article img{
     float:right;
