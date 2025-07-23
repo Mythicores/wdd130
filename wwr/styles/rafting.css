@@ -67,6 +67,8 @@ h1{
 .hero article img{
     float:right;
     width: 125px;
-    text-align: center;
+    background-color: var(--primary-color);
+    opacity: 10.8;
+    text-align: right;
 }
 
