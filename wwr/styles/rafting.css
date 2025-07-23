@@ -1,9 +1,9 @@
 :root{
     /* Color scheme is , , 9A9DDB, ,  */
-    --primary-color: 4D4A80;
-    --secondary-color: 5D61A6;
-    --accent1-color: B9BCF9;
-    --accent2-color: D4D6FA;
+    --primary-color: #4D4A80;
+    --secondary-color: #5D61A6;
+    --accent1-color: #B9BCF9;
+    --accent2-color: #D4D6FA;
     --body-font: "Lato", sans-serif;
     --heading-font: "Oswald", sans-serif;
 }
@@ -53,18 +53,20 @@ nav, p, section, article {
 
 h1{
     position: absolute;
-    top:20px;
+    top:10px;
     width:100%;
     padding:20px;
     text-align: center;
     opacity: 0.8;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color:white;
 }
 
+
+
 .hero article img{
-    position: absolute;
     float:right;
     width: 125px;
+    text-align: center;
 }
 
