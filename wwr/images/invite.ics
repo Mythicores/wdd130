@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Mountain Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Schedule a Private Session:mailto:ScheduleaPrivateSession@byup
+ athwayworldwideprod.onmicrosoft.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=FALSE;CN=Nathanael
+  Jones:mailto:nathjone9675@gmail.com
+DESCRIPTION;LANGUAGE=en-US:Your appointment will be with Jean Konan.\n\nSch
+ edule a Private Session\n\n\nManage Booking<https://outlook.office365.com:
+ 443/owa/calendar/ScheduleaPrivateSession@byupathwayworldwideprod.onmicroso
+ ft.com/bookings/8wvXUx9uu0S89j7ccznlsA2>\n\nJoin the Teams Meeting from yo
+ ur mobile web browser:\n https://visit.teams.microsoft.com/webrtc-svc/api/
+ route?tid=42804ae1-d2e9-40b7-a4a3-45811234298b&convId=19:meeting_YWU3ODZkN
+ DctNjQ1My00ZGZhLWEzYWQtNzY5ZTJmNzM0YTM2@thread.v2&oid=9e9f67dd-b12c-4391-9
+ faa-d3a4e921e96a&JoinWebUrl=https%3a%2f%2fteams.microsoft.com%2fl%2fmeetup
+ -join%2f19%253ameeting_YWU3ODZkNDctNjQ1My00ZGZhLWEzYWQtNzY5ZTJmNzM0YTM2%25
+ 40thread.v2%2f0%3fcontext%3d%257b%2522Tid%2522%253a%252242804ae1-d2e9-40b7
+ -a4a3-45811234298b%2522%252c%2522Oid%2522%253a%25229e9f67dd-b12c-4391-9faa
+ -d3a4e921e96a%2522%257d%26webjoin%3dtrue%26unified%3dtrue&bid=ScheduleaPri
+ vateSession@byupathwayworldwideprod.onmicrosoft.com&biz=0&aE=False&ssid=8w
+ vXUx9uu0S89j7ccznlsA2\n If you're joining from another device\, use the li
+ nk below.\n\nMicrosoft Teams\n\nNeed help? https://aka.ms/JoinTeamsMeeting
+ ?omkt=en-US\n\nJoin the meeting now: https://teams.microsoft.com/l/meetup-
+ join/19%3ameeting_YWU3ODZkNDctNjQ1My00ZGZhLWEzYWQtNzY5ZTJmNzM0YTM2%40threa
+ d.v2/0?context=%7b%22Tid%22%3a%2242804ae1-d2e9-40b7-a4a3-45811234298b%22%2
+ c%22Oid%22%3a%229e9f67dd-b12c-4391-9faa-d3a4e921e96a%22%7d\n\nMeeting ID: 
+ 294 014 162 111 9\nPasscode: 7cb3Xc24\n\n\n\n\n\nFor organizers:\n\nMeetin
+ g options: https://teams.microsoft.com/meetingOptions/?organizerId=9e9f67d
+ d-b12c-4391-9faa-d3a4e921e96a&tenantId=42804ae1-d2e9-40b7-a4a3-45811234298
+ b&threadId=19_meeting_YWU3ODZkNDctNjQ1My00ZGZhLWEzYWQtNzY5ZTJmNzM0YTM2@thr
+ ead.v2&messageId=0&language=en-US\n\n\n\n\n
+UID:040000008200E00074C5B7101A82E00800000000C5512FD75C02DC01000000000000000
+ 01000000040BB494A87494D4196C1B9EBBA6A05DD
+SUMMARY;LANGUAGE=en-US:WDD 130 - Nathanael Jones
+DTSTART;TZID=Mountain Standard Time:20250801T140000
+DTEND;TZID=Mountain Standard Time:20250801T143000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250731T205112Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION;LANGUAGE=en-US:
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-OWNERAPPTID:2123889715
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_YWU3ODZkNDctNjQ1My00ZGZhLWEzYWQtNzY5ZTJmNzM0YTM2%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%2242804ae1-d2e9-40b7-a4a3-45811234298b%22%2c%22O
+ id%22%3a%229e9f67dd-b12c-4391-9faa-d3a4e921e96a%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/42804ae1-d2e9-40b7-a4a3-45811234298b/9e9f67dd-b12c-4391-9faa-d
+ 3a4e921e96a/19_meeting_YWU3ODZkNDctNjQ1My00ZGZhLWEzYWQtNzY5ZTJmNzM0YTM2@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_YWU3ODZkNDctNjQ1My00ZGZ
+ hLWEzYWQtNzY5ZTJmNzM0YTM2@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LATITUDE:0
+X-MICROSOFT-LONGITUDE:0
+X-MICROSOFT-ACCURACY:0
+X-MICROSOFT-ALTITUDE:0
+X-MICROSOFT-ALTITUDEACCURACY:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":""\,"LocationAnnotation":""\,"Locatio
+ nUri":""\,"Latitude":0.0\,"Longitude":0.0\,"Accuracy":0.0\,"Altitude":0.0\
+ ,"AltitudeAccuracy":0.0\,"LocationStreet":""\,"LocationCity":""\,"Location
+ State":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAdd
+ ress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
