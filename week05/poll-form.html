@@ -4,10 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Poll form | Nathanael Jones</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!--Text font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
   </head>
   <body>
     <header>
-
+      <h1>ONLINE POLL:</h1>
     </header>
 
 
@@ -15,14 +27,23 @@
         <form>
             <fieldset>
                 <legend>Contact info</legend>
+
+                <div class="form-item column2">
                 <label for="fullname">Full name:</label>
                 <input type="text" id="fullname" name="fullname">
-                <label for="useremail">Email:</label>
+                </div>
+
+                <div>
+                <label for="useremail column2">Email:</label>
                 <input type="email" id="useremail" name="useremail">
+                </div>
+
             </fieldset>
 
             <fieldset>
                 <legend>Questions</legend>
+
+                <div class="form-item column1">
                 <label for="browser">What's your favorite browser?</label>
                 <select name="browser" id="browser">
                     <option value="">--Enter your favorite!--</option>
@@ -30,10 +51,16 @@
                     <option value="bing">Bing</option>
                     <option value="duckduckgo">Duckduckgo</option>
                 </select>
-                <label for="pet">Do you have a household pet?</label>
+                </div>
+
+                <div class="form-item column1">
+                <label  for="pet">Do you have a household pet?</label>
                 <input type="checkbox" id="pet" value="pet">
+                </div>
+
                 <label for="feedback">List the places you have lived.</label>
                 <textarea id="feedback" name="feedback" rows="5">Placeholder</textarea>
+
             </fieldset>
             <input type="submit" value="Submit Poll" id="submit">
         </form>
@@ -42,7 +69,7 @@
 
 
     <footer>
-        
+        <h2>©2025 Nathanael Jones</h2>
     </footer>
   </body>
 </html>
