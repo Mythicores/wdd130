@@ -39,16 +39,17 @@
                             <label for="email">Email:</label>
                             <input type="text" id="email" value="">
 
-                            <label for="purpose">Reason:</label>
-                            <div class="radio-options">
-                                <input type="radio" id="purpose general" name="general-inquiry" value="General Inquiry">
+                            <fieldset class="radio-options">
+                                <legend class="radio-title">Reason:</legend>
+
+                                <input type="radio" id="general" name="inquiry" value="General Inquiry">
                                 <label for="general">General inquiry</label>
-                                <input type="radio" id="purpose reservations" name="reservation-question" value="Reservation Question">
+                                <input type="radio" id="reservations" name="inquiry" value="Reservation Question">
                                 <lable for="reservations">Reservation Question</lable>
-                                <input type="radio" id="purpose suggestion" name="website-suggestion" value="Website Suggestion">
+                                <input type="radio" id="suggestion" name="inquiry" value="Website Suggestion">
                                 <label for="suggestion">Website Suggestion</label>
                             
-                            </div>
+                            </fieldset>
 
                             <div class="newsletter">
                             <label for="newsletter">Please subscribe to the monthly newsletter!</label>

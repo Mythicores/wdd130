@@ -194,6 +194,12 @@ legend{
     background-color: var(--primary-color)
 }
 
+.radio-title{
+    border: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: none;
+}
 
 input, textarea{
     padding: 0.5em;
