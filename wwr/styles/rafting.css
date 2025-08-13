@@ -541,3 +541,13 @@ th{
     background-color: rgb(203, 217, 255);
 }
 
+.map{
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+    background-color: var(--secondary-color);
+}
+
+iframe{
+    background-color: var(--secondary-color);
+    padding: 2em;
+}
