@@ -406,14 +406,14 @@ form{
     font-size: 1.5em;
 }
 
-.trips{
+.call-to-action{
     background-color: var(--secondary-color);
     border-radius: 1em;
     display:grid;
     grid-template-rows: 1fr 0.5fr 1fr;
 }
 
-.trips h3{
+.call-to-action h3{
     justify-self: center;
     align-self: center;
     text-align: center;
@@ -424,7 +424,7 @@ form{
     font-size: 2em;
 }
 
-.trips h4{
+.call-to-action h4{
     font-size: 1.5em;
     margin: 10px;
     justify-self: left;
@@ -433,7 +433,7 @@ form{
 }
 
 
-.trips a{
+.call-to-action a{
     background-color: blue;
     text-decoration: none;
     color: white;
